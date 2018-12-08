@@ -12,10 +12,9 @@ int main(){
 
     cout << add(5, 5) << endl;
 
-    cout << "Please enter the random number:";
-    cin >> input01;
-    cout << "Please enter the random number:";
-    cin >> input02;
+    cout << "Please enter the two random numbers:";
+    cin >> input01 >> input02;
+
     cout << "The total is " << add(input01, input02) << endl;
 
     return 0;
